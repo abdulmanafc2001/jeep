@@ -1,0 +1,460 @@
+*{
+margin: 0;
+padding: 0;
+}
+.container {
+    width: 100%;
+    height: 1500px;
+    background-color: black;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.logo {
+    width: 12%;
+    height: 73px;
+    float: left;
+}
+.logo-jeep {
+    width: 90px;
+    margin-top: 22px;
+    margin-left: 49px;
+    cursor: pointer;
+}
+.top-text {
+    width: 88%;
+    height: 73px;
+    float: left;
+    display: flex;
+    gap: 20px;
+}
+
+.vehicle-text {
+    color: white;
+    border: none;
+    background-color: black;
+    width: 120px;
+}
+.vehicle-text:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    color: white;
+    background-color: grey;
+    transition: 0.7s;
+}
+
+
+.white-carphoto {
+    width: 100%;
+    height: 614px;
+    float: left;
+   
+}
+.img-jeep1{
+    margin-left: 30px;
+}
+
+
+.btn-whitecar {
+    position: absolute;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: -351px;
+    margin-top: 514px;
+    background-color: #fc0;
+    height: 43px;
+    width: 142px;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.btn-whitecar:hover {
+    cursor: pointer;
+    opacity: 0.9;
+    transition: 0.5s;
+}
+
+
+.dot {
+    display: inline-flex;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.25);
+    background-color: white;
+}
+.dots {
+    margin-left: 720px;
+   position: absolute;
+   margin-top: 630px;
+   cursor: pointer;
+   
+}
+.dots:hover {
+    cursor: pointer;
+    color: black;
+}
+.cars {
+    width: 95%;
+    height: 300px;
+    background-color: green;
+    float: left;
+    background-color: white;
+    margin-left: 30px;
+}
+.text-imgjeep {
+    width: 100%;
+    height: 50px;
+    padding-top: 50PX;
+}
+.text-jeepreg {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 656px;
+    margin-top: -10px;
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.photo-carswr {
+    width: 100%;
+    height: 165px;
+    display: flex;
+}
+.photo-cars1 {
+    width: 380px;
+    height: 165px;
+    cursor: pointer;
+    
+}
+.text-underimg {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    gap: 200px;
+}
+.under-text {
+    margin-left: 58px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.black-img {
+    width: 100%;
+    height: 50px;
+    float: left;
+}
+.jeep-imgblk {
+    width: 100%;
+}
+.three-images {
+    width: 95%;
+    height: 377px;
+    float: left;
+    background-color: rgb(198, 192, 192);
+    margin-left: 30px;
+    display: flex;
+    gap: 35px;
+}
+.img-first1 {
+    width: 30%;
+    margin-left: 35px;
+    background-color: rgb(218, 218, 218);
+    height: 93%;
+
+}
+.img-first2 {
+    width: 30%;
+    background-color: rgb(218, 218, 218);
+    height: 93%;
+
+}
+.trail-img {
+    width: 100%;
+}
+.original-img {
+    width: 100%;
+}
+.learn-text {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    float: right;
+    margin-right: 25px;
+}
+.learn-text:hover {
+   text-decoration: underline;
+   cursor: pointer;
+   transition: 0.8s;
+
+}
+.yellow {
+    color: #fc0;
+    position:absolute;
+    margin-left: 420px;
+    margin-top: -2px;
+}
+.search-bar {
+    width: 100%;
+    height: 110px;
+    background-color:#232b29;
+    float: left;
+}
+.non-search {
+    width: 55%;
+    height:110px ;
+    display: flex;
+    gap: 30PX;
+    float: left;
+}
+.contact1 {
+    color: white;
+    margin-top: 55px;
+    opacity: 0.5;
+    font-size: 16px;
+    margin-left: 154px;
+    letter-spacing: 1px;
+}
+.contact {
+    color: white;
+    margin-top: 55px;
+    opacity: 0.5;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.contact:hover {
+    opacity: 1;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.contact1:hover {
+    opacity: 1;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.searchbar-enter {
+    width: 45%;
+  height: 110px ;
+  float: left;
+}
+.search-bar1 {
+    width: 200px;
+    height: 33px;
+    margin-top: 48px;
+    margin-left: 156px;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+.btn-search {
+    height: 33px;
+    width: 80px;
+    font-size: 12px;  
+    background-color: #fc0;
+    margin-left: -5px;
+    position: absolute;
+    margin-top: 48px;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+}
+.btn-search:hover {
+    cursor: pointer;
+    opacity: 0.9;
+    transition: 0.5s; 
+}
+.vehicle-last {
+    width: 100%;
+    height: 350px;
+    background-color: black;
+    float: left;
+}
+.vehicles-textlast {
+    width: 100%;
+    height: 90px;
+    display: flex;
+   gap: 150px;
+   color: white;
+   font-weight: bold;
+   font-size: 13px;
+}
+.locate-text {
+    margin-left: 156px;
+    margin-top: 50px;
+}
+.locate-text1 {
+    margin-top: 50px;
+}
+.texts-models {
+    height: 210px;
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 15px;
+    font-size: 13px;
+    float: left;
+}
+.text-jeep1{
+    margin-left: 153px;
+    opacity: 0.7;
+}
+.text-jeep1:hover {
+    opacity: 1;
+    cursor: pointer;
+    transition: 0.7s;
+}
+.texts-models1 {
+    height: 210px;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 15px;
+    font-size: 13px;
+    float: left;
+}
+.text-jeep2 {
+    margin-left: 35px;
+    opacity: 0.7;
+}
+.text-jeep2:hover {
+    opacity: 1;
+    cursor: pointer;
+    transition: 0.7s;
+}
+.texts-models2 {
+    height: 210px;
+    width: 203px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 15px;
+    font-size: 13px;
+    float: left;
+}
+.text-jeep3 {
+    opacity: 0.7;
+}
+.text-jeep3:hover {
+    opacity: 1;
+    cursor: pointer;
+    transition: 0.7s;
+}
+.texts-models3 {
+    height: 210px;
+    width: 344px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 15px;
+    font-size: 13px;
+    float: left;
+}
+.text-jeep4 {
+    opacity: 0.7;
+}
+.text-jeep4:hover {
+    opacity: 1;
+    cursor: pointer;
+    transition: 0.7s;
+}
+.texts-models4 {
+    height: 60px;
+    width: 344px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 15px;
+    font-size: 13px;
+    float: left;
+}
+.text-jeep5 {
+    opacity: 0.7;
+}
+.text-jeep5:hover {
+    opacity: 1;
+    cursor: pointer;
+    transition: 0.7s;
+}
+.follow-us {
+    width: 344px;
+    height: 180px;
+    float: left;
+}
+.text-follow {
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+}
+.fb-img {
+    width: 30px;
+    margin-right: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.footer {
+    width: 100%;
+    height: 165px;
+    background-color:black;
+    float: left;
+
+}
+.foot-1 {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    gap: 1044px;
+}
+.line {
+    color: grey;
+    float: left;
+    width: 85%;
+    margin-left: 130px;
+    opacity: 0.2;
+    height: 0.1px;
+}
+.img-strell {
+   width: 140px;
+    margin-left: 130px;
+    margin-top: px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.tex-jeep {
+    margin-top: 15px;
+    color: white;
+    opacity: 0.7;
+    font-size: 10px;
+}
+.tex-jeep:hover {
+    opacity: 1;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.last-word {
+    width: 50%;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 128px;
+}
+.big-txt {
+    color: white;
+    font-size: 12px;
+    opacity: 0.7;
+}
+.big-txt1 {
+    color: white;
+    font-size: 10px;
+    margin-top: 10px;
+    width: 585px;
+    opacity: 0.7;
+}
